@@ -18,18 +18,6 @@ resource "openstack_images_image_v2" "ubuntu" {
   }
 }
 
-resource "openstack_compute_flavor_v2" "ubuntu" {
-  name  = "ubuntu"
-  ram   = "1024"
-  vcpus = "1"
-  disk  = "10"
-
-  extra_specs = {
-    "hw:cpu_policy"        = "CPU-POLICY",
-    "hw:cpu_thread_policy" = "CPU-THREAD-POLICY"
-  }
-}
-
 provider "openstack" {
   cloud = "openstack"
 }
