@@ -1,3 +1,3 @@
 # ynov-tp-openstack-terraform
 
-Groupe Killian BERNARD et Maxime BETIRAC
+Groupe Killian BERNARD et Maxime BETIRAC.
